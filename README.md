@@ -9,13 +9,13 @@ $ source test_env/bin/activate
 
 (venv) $ pip install -r requirements.txt
 
-(venv) $ python3 acquire_chatterbot_old.py
+(venv) $ python3 entity_extraction.py
 OR
-$ ./test_env/bin/python3 acquire_chatterbot_old.py
+$ ./test_env/bin/python3 entity_extraction.py
 
 (venv) $ deactivate
 
-$ forever start -c ./test_env/bin/python3 acquire_chatterbot_old.py
+$ forever start -c ./test_env/bin/python3 entity_extraction.py
 
 Ref for Screen: https://linuxize.com/post/how-to-use-linux-screen/
 
@@ -33,7 +33,7 @@ $ ctrl+AD #close current screen
 
 $ ctrl+AX #delete any screen
 
-working screen: 23921.mktf.acquire.io
+working screen: 23921.abc.xyz.com
 
 $ screen -X -S [session # you want to kill] quit
 
