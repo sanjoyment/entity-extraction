@@ -19,7 +19,7 @@ $ forever start -c ./test_env/bin/python3 acquire_chatterbot_old.py
 
 Ref for Screen: https://linuxize.com/post/how-to-use-linux-screen/
 
-IP/PORT: http://147.135.37.191:9978
+IP/PORT: http://0.0.0.0:9978
 
 ---------------------
 
